@@ -1,0 +1,56 @@
+/* Diseño Grafico */
+
+#formulario{
+    background-color: aliceblue;
+    width: 400px;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.4);
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+button{
+    background-color: rgb(230,230,230);
+    height: 50px;
+    width: 150px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+input{
+    background-color: rgb(200, 200, 200);
+    height: 30px;
+    width: 250px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#p_text{
+    margin: 1rem auto;
+    text-align: center;
+}
+#pie_pagina{
+    text-align: center;
+}
+#total_S{
+    margin: 1rem auto;
+    text-align: center;
+}
+#propina_S{
+    margin: 1rem auto;
+    text-align: center;
+}

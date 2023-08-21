@@ -5,11 +5,13 @@
         <meta charset = "iso-8559-1"/>
         <meta name="description" content="calcula propinas"/>
         <title>Calculador de propinas</title>
-        <link rel="stylesheet" type="text/css" href="css/estilo.css"/>
-        <script src="Js/interface.js"></script>
+        <link rel="stylesheet" href="../Assets/css/estilo.css"/>
+        <script type="text/javascript" src="View/Presentador.js"></script>
+        <script type="text/javascript" src="../Model/PropinaModel.js"></script>
+        <script type="text/javascript" src="../Controller/CalculadorPropinaController.js"></script>
         <style>
             body{
-                background-image: url("imgs/background_wood.png");
+                background-image: url("../Assets/imgs/background_wood.png");
                 background-size: cover;
                 background-repeat: no-repeat;
                 background-attachment: fixed;
@@ -17,8 +19,7 @@
         </style>
     </head>
 
-    <body>
-        
+    <body>  
         <header id="background">
             <h1>Calculador de propinas</h1>
         </header>
@@ -43,7 +44,7 @@
                 </footer>
             </article>
             
-            <button type="button" onclick="captura_datos()">Calcular</button>
+            <button type="button" onclick="Presentador.capturaDatos()">Calcular</button>
             
             <article>
                 <header>
